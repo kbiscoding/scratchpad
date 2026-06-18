@@ -1,5 +1,4 @@
 /*
-Roku Problem Statement 1:
 Implement an autocomplete system. Given a list of strings and their corresponding usage frequencies, implement a class with the following features:
 1. add(word: str, freq: int): Adds a new word with its frequency. If the word already exists, update its frequency by to the given value.
 2. top_k(prefix: str, k: int) -> List[str]: Returns the top k most frequent words that start with the given prefix. In case of a tie in frequency, sort lexicographically.
